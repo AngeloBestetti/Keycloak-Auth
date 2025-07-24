@@ -210,7 +210,7 @@ func run() error {
 		Name:        "auth-callout",
 		Version:     "1.0.0",
 		Description: "Auth callout service.",
-		Metadata:    map[string]string{"Ambiente": serverName, "Descricao": "Servico de autenticacao", "Origem": "labs", "Transacao": "auth"},
+		Metadata:    map[string]string{"Environment": serverName, "Description": "Auth Service", "Origen": "labs", "Transaction": "auth"},
 	})
 	if err != nil {
 		return err
